@@ -55,6 +55,7 @@ $ ollama pull gemma4:26b
 - Verify if it is ready:
 ```bash
 $ ollama list
+
 NAME                       ID              SIZE      MODIFIED        
 gemma4:26b                 5571076f3d70    17 GB     43 hours ago  
 ```
@@ -79,6 +80,7 @@ $ ollama create gemma4-64k -f ./Modelfile
   - Verify it:
 ```bash
 $ ollama list
+
 NAME                       ID              SIZE      MODIFIED     
 gemma4-64k:latest          62a18541dae0    17 GB     20 hours ago    
 gemma4:26b                 5571076f3d70    17 GB     43 hours ago  
