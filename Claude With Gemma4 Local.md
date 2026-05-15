@@ -55,9 +55,6 @@ $ ollama pull gemma4:26b
 - Verify if it is ready:
 ```bash
 $ ollama list
-```
-Should show:
-```
 NAME                       ID              SIZE      MODIFIED        
 gemma4:26b                 5571076f3d70    17 GB     43 hours ago  
 ```
