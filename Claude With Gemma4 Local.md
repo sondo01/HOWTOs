@@ -7,7 +7,7 @@ This HOWTO provides a step-by-step guide to running Claude Code with Gemma4 serv
 
 With a modest hardware configuration (details in the next section), I can get Claude working at a reasonable speed. Each step took approximately 4 minutes.
 
-For small task, like vibe-coding a simple RAG script with Python, it gets the job done. It's nowhere near the performance of a commercial API, but if you’ve got the curiosity, it’s a fun project to try. If not, feel free to skip this one.
+For small tasks, like vibe-coding a simple RAG script with Python, it gets the job done. It's nowhere near the performance of a commercial API, but if you’ve got the curiosity, it’s a fun project to try. If not, feel free to skip this one.
 
 Bon, On y va!
 
