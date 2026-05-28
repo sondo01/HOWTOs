@@ -96,13 +96,16 @@ I used a fairly modest PC to serve as an LLM server (to run Ollama with Gemma4:2
 - Install Ollama:
   ```bash
   $ curl -fsSL https://ollama.com/install.sh | sh
+  $ ollama launch claude
   ```
-
+  Exit Ollama and Claude.
 - Export environment variables:
   ```bash
   $ export ANTHROPIC_BASE_URL="192.168.1.101"
   $ export ANTHROPIC_AUTH_TOKEN="ollama"
-  $ export ANTHROPIC_TIMEOUT=600000
+  $ export ANTHROPIC_TIMEOUT=1800000
+  $ export CLAUDE_CONFIG_TIMEOUT=1800000
+  $ export HTTP_TIMEOUT=1800
   ```
   It is important to adjust the TIMEOUT depending on how powerful your system is.
 
